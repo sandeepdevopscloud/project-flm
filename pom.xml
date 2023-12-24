@@ -33,7 +33,7 @@
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>http://18.235.233.134:8081/repository/sandeep-releases/</url>
+		    <url>http://54.237.95.169:8081/repository/sandeep-releases/</url>
 		</repository>
   	</distributionManagement>
 	
