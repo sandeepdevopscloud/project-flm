@@ -1,17 +1,20 @@
-<html>
-<head>
-	<title>My Web App</title>
-</head>
-<body>
-	<h1 style="color: violet; font-size: 40px;" align="center">HEY WE DEPLOYED OUR APP USING JENKINS</h1>
-	<h1 style="color: red; font-size: 40px;" align="center">THIS IS THE SECOND VERSION OF OUR APP</h1>
-	<h1 style="color: black; font-size: 40px;" align="center">THIS IS OUR JENKINS CI/CD</h1>
-	<h1 style="color: black; font-size: 40px;" align="center">This is sandeep and AWS DevOps Project </h1>
-	<h1 style="color: blue; font-size: 60px;" align="center">Working in Amazon as a DevOps Engineer for 5 years</h1>
-	
-	
-	
-	
-	
-</body>
-</html>
+function startGame() {
+  myGamePiece = new component(30, 30, "red", 10, 120);
+  myGamePiece.gravity = 0.05;
+  myScore = new component("30px", "Consolas", "black", 280, 40, "text");
+  myGameArea.start();
+}
+
+var myGameArea = {
+  canvas : document.createElement("canvas"),
+  start : function() {
+    this.canvas.width = 480;
+    this.canvas.height = 270;
+    this.context = this.canvas.getContext("2d");
+    document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+    this.frameNo = 0;
+  },
+  clear : function() {
+    this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+  }
+}
