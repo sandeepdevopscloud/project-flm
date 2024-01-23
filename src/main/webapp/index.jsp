@@ -1,23 +1,13 @@
-<!DOCTYPE html>
-<html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
+<HTML>
 
-<div class="w3-container w3-teal">
-  <h1>My Car</h1>
-</div>
+<HEAD>
 
-<img src="img_car.jpg" alt="Car" style="width:100%">
+</HEAD>
 
-<div class="w3-container">
-  <p>A car is a wheeled, self-powered motor vehicle used for transportation.</p>
-</div>
+<TITLE> GVMC HIGH SCHOOL CRAFT TEACHER </TITLE>
 
-<div class="w3-container w3-teal">
-  <p>My footer information</p>
-</div>
+<BODY>
 
-</body>
-</html>
+PVBN RATNAM
+
+</BODY>
