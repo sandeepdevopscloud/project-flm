@@ -12,8 +12,8 @@ body {
 </head>
 <body>
 
-<h1>My Website</h1>
-<p>A website created by me.</p>
+<h1>GVMC HIGH SCHOOL CRAFT TEACHER</h1>
+<p>PBVN RATNAM.</p>
 
 </body>
 </html>
